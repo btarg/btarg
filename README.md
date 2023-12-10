@@ -1,8 +1,7 @@
 # btarg
-<img align='left' height='40' src='https://github.com/btarg/Origami/blob/master/crane.png?raw=true' style='padding-right: 10px;' />
+<img align='left' height='75' src='https://github.com/btarg/Origami/blob/master/crane.png?raw=true' style='padding-right: 10px;' />
 
 Currently developing [Origami](https://github.com/btarg/Origami), a Minecraft server plugin for creating custom content for vanilla clients.
-
 
 My favourite programming language is C#, and I mostly focus on game development and modding. I code in my spare time to learn as much as I can, and to create the best and simplest solutions to problems I have with existing software.
 
