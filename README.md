@@ -8,6 +8,6 @@ I also own and operate [the 21st portfolio](https://21stportfolio.com), a studen
 <a href='https://ko-fi.com/btarg' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
 
 # My Skills
-[![My Skills](https://skillicons.dev/icons?i=github,java,cs,unity,python,idea,discord,bots,linux,nginx,gcp,ps,md,netlify,powershell)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=github,java,cs,unity,unreal,python,idea,discord,bots,linux,nginx,gcp,ps,md,netlify,powershell)](https://skillicons.dev)
 
 Contact me on [LinkedIn](https://www.linkedin.com/in/benjamin-targett-1298ab29a/) if you are interested in hiring a developer with any of these skills!
