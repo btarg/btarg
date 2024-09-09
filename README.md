@@ -21,7 +21,9 @@ In this project, I make heavy use of **state machines** to manage the gameplay f
 - **Exploration vs. Battle**: State machines manage whether the player is in exploration mode or engaged in battle.
 - **Character Battle States**: During battles, each character has a state machine that determines whether they are attacking, defending, waiting, etc.
 
-These states would then be responsible for updating the appropriate gameplay logic: for example, the `ExplorationState` updates the third-person player controller, whilst the `BattleState` updates a top-down player controller.
+These states would then be responsible for updating the appropriate gameplay logic: for example, the `ExplorationState` updates the third-person player controller, whilst the `BattleState` updates a top-down player controller. These states are **Nodes within the scene,** that are children of the State Machine itself.
+
+![An example of a simple state in my state machine system](https://i.imgur.com/ZrxpdWZ.png)
 
 While **GDScript** was a new language for me, my previous experience with **C# in Unity** and **AngelScript in Unreal Engine** allowed me to quickly adapt and implement gameplay systems effectively.
 
