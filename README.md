@@ -21,6 +21,8 @@ In this project, I make heavy use of **state machines** to manage the gameplay f
 - **Exploration vs. Battle**: State machines manage whether the player is in exploration mode or engaged in battle.
 - **Character Battle States**: During battles, each character has a state machine that determines whether they are attacking, defending, waiting, etc.
 
+These states would then be responsible for updating the appropriate gameplay logic: for example, the `ExplorationState` updates the third-person player controller, whilst the `BattleState` updates a top-down player controller.
+
 While **GDScript** was a new language for me, my previous experience with **C# in Unity** and **AngelScript in Unreal Engine** allowed me to quickly adapt and implement gameplay systems effectively.
 
 The design of my data structures and gameplay flow is informed by previous attempts at creating similar RPG mechanics in **Unity** and **Unreal Engine**, as well as working with others (especially the friendly people in the official [Godot Discord server](https://discord.gg/bdcfAYM4W9)) to collect feedback and improve the visuals and gameplay accordingly.
