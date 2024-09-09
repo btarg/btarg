@@ -32,7 +32,25 @@ Origami is a Minecraft server plugin for the [Paper](https://papermc.org/) platf
 
 I used many tricks and hacks present in vanilla Minecraft code to create custom blocks and items, implementing a system which allowed the server owner to write simple **YAML files** to define custom properties for each item or block.
 
-Other, more feature-complete alternatives exist now for server-side modding, but I learned a lot about backend and server development.
+The plugin also featured [extensive, easy-to-follow documentation](https://btarg.gitbook.io/origami-docs), marking my first time writing proper docs for a programming project. I believe they turned out helpful and well-organised.
+
+Other, more [feature-complete alternatives](https://modrinth.com/mod/polymer) exist now for server-side modding, but I learned a lot about backend and server development.
+
+
+### [CraftGPT](https://github.com/btarg/CraftGPT) (Proof of concept)
+CraftGPT was an experiment with [Langchain4J](https://github.com/langchain4j/langchain4j) and PaperMC. The plugin allows a player on a Minecraft server to speak to a **GPT-powered LLM**, which could execute commands in the game. For instance, the player could ask for "something useful for mining," and be given a pickaxe by the LLM.
+
+The plugin also **observed more general information about the players **in the server: for instance, if that player had asked more generally for "something useful," and they were low on health, they might recieve food or a healing potion to restore it.
+
+Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code.
+
+
+### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2) (Abandoned)
+Twitch vs Minecraft is a Minecraft Forge mod which allows a player's Twitch chat to **directly interact with their game** through commands.
+
+It was heavily inspired by other existing projects like [CrowdControl](https://crowdcontrol.live/), but offered the easiest setup out of all available livestream interactivity mods, with pre-defined commands that I programmed myself.
+
+Twitch Vs Minecraft was the project I used for learning Java, and served as a testbed for my Java development skills for a few years while I maintained it. These days there are again more feature-complete and up-to-date alternatives available, but I believe that my mod was the best in the category in terms of user experience (especially its unparalleled ease of use) while I actively worked on it.
 
 ## Skills
 [![My Skills](https://skillicons.dev/icons?i=github,java,cs,unity,godot,unreal,python,idea,discord,bots,linux,nginx,gcp,ps,md,netlify,powershell)](https://skillicons.dev)
