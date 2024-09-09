@@ -88,7 +88,7 @@ It was heavily inspired by other existing projects like [CrowdControl](https://c
 Twitch Vs Minecraft was the project I used for learning Java, and served as a testbed for my Java development skills for a few years while I maintained it. These days there are again more feature-complete and up-to-date alternatives available, but I believe that my mod was the best in the category in terms of user experience (especially its unparalleled ease of use) while I actively worked on it.
 
 ## Skills
-[![My Skills](https://skillicons.dev/icons?i=github,java,cs,unity,godot,unreal,python,idea,discord,bots,linux,nginx,gcp,ps,md,netlify,powershell)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=vscode,github,java,cs,unity,godot,unreal,python,idea,discord,bots,linux,nginx,gcp,aws,ps,md,netlify,postgresql,javascript,typescript)](https://skillicons.dev)
 
 ## Contact
 You can contact me on [LinkedIn](https://www.linkedin.com/in/benjamin-targett-1298ab29a/) if you are interested in hiring a developer with any of these skills!
