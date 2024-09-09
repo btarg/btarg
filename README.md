@@ -54,8 +54,15 @@ The plugin also **observed more general information about the players **in the s
 
 Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code.
 
+### [Unity Ink game](https://github.com/btarg/UnityInkGame) (Old)
+This unnamed 3D first-person exploration game was heavily dialogue-centric. It featured a **Quake level importer** so I could make levels with [Trenchbroom](https://trenchbroom.github.io/), which while adapted from existing open-source code, was highly customised to allow me to place **Invisible walls, triggers and Unity prefabs** within the Trenchbroom editor.
 
-### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2) (Abandoned)
+This was also my first experience **creating UI for a game,** which I believe turned out very well: the game features an Undertale-inspired and DOS-like main menu, pause menu, and functioning dialogue boxes using the [Ink](https://www.inklestudios.com/ink/) scripting language. The UI looked great and was easy to navigate with multiple control methods.
+
+I abandoned work on this game after I decided that the gameplay was lacking. I had not created a Game Design Document for this project like I later did for **Project Requiem,** which severely hindered my ability to craft a fun experience. I have used this as a valuable lesson for projects since, and have been creating more **detailed documentation for both systems and narratives** in current projects.
+
+
+### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2) (Old)
 Twitch vs Minecraft is a Minecraft Forge mod which allows a player's Twitch chat to **directly interact with their game** through commands.
 
 It was heavily inspired by other existing projects like [CrowdControl](https://crowdcontrol.live/), but offered the easiest setup out of all available livestream interactivity mods, with pre-defined commands that I programmed myself.
