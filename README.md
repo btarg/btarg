@@ -27,6 +27,8 @@ While **GDScript** was a new language for me, my previous experience with **C# i
 
 The design of my data structures and gameplay flow is informed by previous attempts at creating similar RPG mechanics in **Unity** and **Unreal Engine**, as well as working with others (especially the friendly people in the official [Godot Discord server](https://discord.gg/bdcfAYM4W9)) to collect feedback and improve the visuals and gameplay accordingly.
 
+![Early indev screenshot of the player in the "exploration state"](https://i.imgur.com/KIvQsmP.png)
+
 > Disclaimer
 
 I do not expect this project to be completed, as I am yet to source art assets. The code portion of this project is simply a way for me to sharpen my skills in Godot, whereas the [**Game Design Document**](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing) has had far more time put into it. 
