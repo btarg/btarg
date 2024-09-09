@@ -8,6 +8,8 @@ I also own and operate [the 21st portfolio](https://21stportfolio.com), a studen
 ## Projects
 
 ### [Project Requiem (WIP - current)](https://github.com/btarg/third-person-controller)
+![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
+
 Project Requiem is a work-in-progress turn-based RPG made in [**Godot 4**](https://godotengine.org) using **GDScript**. It is heavily story-driven and features an expansive design document with over 6,000 words outlining the game’s intricate narrative and mechanics. [You can explore the design doc here](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing).
 #### Implementing the gameplay
 In this project, I make heavy use of **state machines** to manage the gameplay flow. For example:
@@ -24,6 +26,8 @@ The design of my data structures and gameplay flow is informed by previous attem
 I do not expect this project to be completed, as I am yet to source art assets. The code portion of this project is simply a way for me to sharpen my skills in Godot, whereas the [**Game Design Document**](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing) has had far more time put into it. 
 
 ### [ByteReserve](https://github.com/btarg/AWS-Upload) (halted for now)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
 ByteReserve is a pay-as-you-go, end-to-end encrypted file upload service (similar to **DropBox**, for example). The current code in the repo does not work, as I stopped developing it mid-rewrite.
 ByteReserve is my first large-scale full-stack **JavaScript** application.
 
@@ -38,6 +42,8 @@ Users would be charged hourly based on "credits" that they could top up, rather 
 Currently, the project's development is halted. The credits and billing systems are not yet implemented. At the moment, this project is **too large in scope** for me to test and deploy properly by myself. Also, a single point of failure in a privacy-focused application like this could lead to compromised user privacy (e.g. if my accounts are hacked, then the site could go down as there is no corporate entity backing it.)
 
 ### [Origami](https://github.com/btarg/origami) (Abandoned)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+
 Origami is a Minecraft server plugin for the [Paper](https://papermc.org/) platform, which allows for server owners to create more a customised experience closer to that of modded Minecraft, regardless of the players' clients.
 
 I used many tricks and hacks present in vanilla Minecraft code to create custom blocks and items, implementing a system which allowed the server owner to write simple **YAML files** to define custom properties for each item or block.
@@ -50,6 +56,8 @@ Other, more [feature-complete alternatives](https://modrinth.com/mod/polymer) ex
 
 
 ### [CraftGPT](https://github.com/btarg/CraftGPT) (Proof of concept)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+
 CraftGPT was an experiment with [Langchain4J](https://github.com/langchain4j/langchain4j) and PaperMC. The plugin allows a player on a Minecraft server to speak to a **GPT-powered LLM**, which could execute commands in the game. For instance, the player could ask for "something useful for mining," and be given a pickaxe by the LLM.
 
 The plugin also **observed more general information about the players **in the server: for instance, if that player had asked more generally for "something useful," and they were low on health, they might recieve food or a healing potion to restore it.
@@ -59,6 +67,8 @@ The plugin also **observed more general information about the players **in the s
 Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code, and I learned a lot about implementing **"Tools"** for large language models like **GPT-4.**
 
 ### [Unity Ink game](https://github.com/btarg/UnityInkGame) (Old)
+![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
+
 This unnamed 3D first-person exploration game was heavily dialogue-centric. It featured a **Quake level importer** so I could make levels with [Trenchbroom](https://trenchbroom.github.io/), which while adapted from existing open-source code, was highly customised to allow me to place **Invisible walls, triggers and Unity prefabs** within the Trenchbroom editor.
 
 This was also my first experience **creating UI for a game,** which I believe turned out very well: the game features an Undertale-inspired and DOS-like main menu, pause menu, and functioning dialogue boxes using the [Ink](https://www.inklestudios.com/ink/) scripting language. The UI looked great and was easy to navigate with multiple control methods.
@@ -69,6 +79,8 @@ I abandoned work on this game after I decided that the gameplay was lacking. I h
 
 
 ### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2) (Old)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
+
 Twitch vs Minecraft is a Minecraft Forge mod which allows a player's Twitch chat to **directly interact with their game** through commands.
 
 It was heavily inspired by other existing projects like [CrowdControl](https://crowdcontrol.live/), but offered the easiest setup out of all available livestream interactivity mods, with pre-defined commands that I programmed myself.
