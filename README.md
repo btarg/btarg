@@ -11,6 +11,10 @@ I also own and operate [the 21st portfolio](https://21stportfolio.com), a studen
 ![Godot Engine](https://img.shields.io/badge/GODOT-%23FFFFFF.svg?style=for-the-badge&logo=godot-engine)
 
 Project Requiem is a work-in-progress turn-based RPG made in [**Godot 4**](https://godotengine.org) using **GDScript**. It is heavily story-driven and features an expansive design document with over 6,000 words outlining the game’s intricate narrative and mechanics. [You can explore the design doc here](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing).
+
+![Design document screenshot](https://i.imgur.com/P0jkkxS.png)
+
+
 #### Implementing the gameplay
 In this project, I make heavy use of **state machines** to manage the gameplay flow. For example:
 
