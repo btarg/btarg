@@ -9,9 +9,9 @@ I also own and operate [the 21st portfolio](https://21stportfolio.com), a studen
 
 ## Projects
 
-### [Project Requiem (WIP)](https://github.com/btarg/third-person-controller)
+### [Project Requiem (WIP - current)](https://github.com/btarg/third-person-controller)
 Project Requiem is a work-in-progress turn-based RPG made in [**Godot 4**](https://godotengine.org) using **GDScript**. It is heavily story-driven and features an expansive design document with over 6,000 words outlining the game’s intricate narrative and mechanics. [You can explore the design doc here](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing).
-#### Creating the project
+#### Implementing the gameplay
 In this project, I make heavy use of **state machines** to manage the gameplay flow. For example:
 
 - **Exploration vs. Battle**: State machines manage whether the player is in exploration mode or engaged in battle.
@@ -19,7 +19,11 @@ In this project, I make heavy use of **state machines** to manage the gameplay f
 
 While **GDScript** was a new language for me, my previous experience with **C# in Unity** and **AngelScript in Unreal Engine** allowed me to quickly adapt and implement gameplay systems effectively.
 
-The design of my data structures and gameplay flow is informed by previous attempts at creating similar RPG mechanics in Unity and Unreal Engine, as well as working with others (especially the friendly people in the official Godot Discord server) to collect feedback and improve gameplay.
+The design of my data structures and gameplay flow is informed by previous attempts at creating similar RPG mechanics in **Unity** and **Unreal Engine**, as well as working with others (especially the friendly people in the official [Godot Discord server](https://discord.gg/bdcfAYM4W9)) to collect feedback and improve the visuals and gameplay accordingly.
+
+> Disclaimer
+
+I do not expect this project to be completed, as I am yet to source art assets. The code portion of this project is simply a way for me to sharpen my skills in Godot, whereas the [**Game Design Document**](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing) has had far more time put into it. 
 
 ### [ByteReserve](https://github.com/btarg/AWS-Upload) (halted for now)
 ByteReserve is a pay-as-you-go, end-to-end encrypted file upload service (similar to **DropBox**, for example). The current code in the repo does not work, as I stopped developing it mid-rewrite.
