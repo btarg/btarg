@@ -35,7 +35,9 @@ The site would encrypt all user-uploaded files entirely within the browser, befo
 
 Users would be charged hourly based on "credits" that they could top up, rather than monthly out of real money on a card. This would ensure that people would not be charged when forgetting to renew a subscription: an annoyance I have with many other alternative services like Google Drive which I believe to be solved by ByteReserve.
 
-Currently, the project's development is halted. The credits and billing systems are not yet implemented.
+> Why I stopped working on this
+
+Currently, the project's development is halted. The credits and billing systems are not yet implemented. At the moment, this project is **too large in scope** for me to test and deploy properly by myself. Also, a single point of failure in a privacy-focused application like this could lead to compromised user privacy (e.g. if my accounts are hacked, then the site could go down as there is no corporate entity backing it.)
 
 ### [Origami](https://github.com/btarg/origami) (Abandoned)
 Origami is a Minecraft server plugin for the [Paper](https://papermc.org/) platform, which allows for server owners to create more a customised experience closer to that of modded Minecraft, regardless of the players' clients.
@@ -44,7 +46,9 @@ I used many tricks and hacks present in vanilla Minecraft code to create custom 
 
 The plugin also featured [extensive, easy-to-follow documentation](https://btarg.gitbook.io/origami-docs), marking my first time writing proper docs for a programming project. I believe they turned out helpful and well-organised.
 
-Other, more [feature-complete alternatives](https://modrinth.com/mod/polymer) exist now for server-side modding, but I learned a lot about backend and server development.
+> Why I stopped working on this
+
+Other, more [feature-complete alternatives](https://modrinth.com/mod/polymer) exist now for server-side modding, but I learned a lot about backend and server development for games while working on Origami.
 
 
 ### [CraftGPT](https://github.com/btarg/CraftGPT) (Proof of concept)
@@ -52,12 +56,16 @@ CraftGPT was an experiment with [Langchain4J](https://github.com/langchain4j/lan
 
 The plugin also **observed more general information about the players **in the server: for instance, if that player had asked more generally for "something useful," and they were low on health, they might recieve food or a healing potion to restore it.
 
-Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code.
+> Why I stopped working on this
+
+Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code, and I learned a lot about implementing **"Tools"** for large language models like **GPT-4.**
 
 ### [Unity Ink game](https://github.com/btarg/UnityInkGame) (Old)
 This unnamed 3D first-person exploration game was heavily dialogue-centric. It featured a **Quake level importer** so I could make levels with [Trenchbroom](https://trenchbroom.github.io/), which while adapted from existing open-source code, was highly customised to allow me to place **Invisible walls, triggers and Unity prefabs** within the Trenchbroom editor.
 
 This was also my first experience **creating UI for a game,** which I believe turned out very well: the game features an Undertale-inspired and DOS-like main menu, pause menu, and functioning dialogue boxes using the [Ink](https://www.inklestudios.com/ink/) scripting language. The UI looked great and was easy to navigate with multiple control methods.
+
+> Why I stopped working on this
 
 I abandoned work on this game after I decided that the gameplay was lacking. I had not created a Game Design Document for this project like I later did for **Project Requiem,** which severely hindered my ability to craft a fun experience. I have used this as a valuable lesson for projects since, and have been creating more **detailed documentation for both systems and narratives** in current projects.
 
