@@ -27,6 +27,12 @@ ByteReserve is my first large-scale full-stack **JavaScript** application.
 
 It uses [Node.js](https://nodejs.org/) on the backend, and [Vue](https://vuejs.org/) with [Tailwind](https://tailwindcss.com/) on the frontend. This was my first time making a dynamic and responsible frontend user experience, but I was quickly able to adapt to using Vue from previous experience writing basic HTML pages for other projects.
 
+The site would encrypt all user-uploaded files entirely within the browser, before uploading to [BackBlaze B2.](https://backblaze.com) **This ensured strict user privacy, and the storage was incredibly cheap.** For further increased privacy, my **PostgreSQL** database would not store any sensitive information about users or files.
+
+Users would be charged hourly based on "credits" that they could top up, rather than monthly out of real money on a card. This would ensure that people would not be charged when forgetting to renew a subscription: an annoyance I have with many other alternative services like Google Drive which I believe to be solved by ByteReserve.
+
+Currently, the project's development is halted. The credits and billing systems are not yet implemented.
+
 ### [Origami](https://github.com/btarg/origami) (Abandoned)
 Origami is a Minecraft server plugin for the [Paper](https://papermc.org/) platform, which allows for server owners to create more a customised experience closer to that of modded Minecraft, regardless of the players' clients.
 
