@@ -5,8 +5,6 @@ My favourite programming language is C#, and I mostly focus on game development 
 
 I also own and operate [the 21st portfolio](https://21stportfolio.com), a student-run literature blog, and I occasionally write poetry and reviews for the site.
 
-<a href='https://ko-fi.com/btarg' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
-
 ## Projects
 
 ### [Project Requiem (WIP - current)](https://github.com/btarg/third-person-controller)
