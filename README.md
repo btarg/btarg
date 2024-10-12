@@ -33,7 +33,7 @@ The design of my data structures and gameplay flow is informed by previous attem
 
 > Disclaimer
 
-I do not expect this project to be completed, as I am yet to source art assets. The code portion of this project is simply a way for me to sharpen my skills in Godot, whereas the [**Game Design Document**](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing) has had far more time put into it. 
+As of late 2024, I am yet to source art assets. The code portion of this project is simply a way for me to sharpen my skills in Godot, whereas the [**Game Design Document**](https://docs.google.com/document/d/1ciNLXNb76iGfoPWgEIhHHFKyTaYyUXYv_RmkQ1yvwhU/edit?usp=sharing) has had far more time put into it. I am continuing to write the game's story, workshopping plot and characters with members of my student group at university.
 
 ### [ByteReserve](https://github.com/btarg/AWS-Upload) (halted for now)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
@@ -54,9 +54,9 @@ Users would be charged hourly based on "credits" that they could top up, rather 
 
 > Why I stopped working on this
 
-Currently, the project's development is halted. The credits and billing systems are not yet implemented. At the moment, this project is **too large in scope** for me to test and deploy properly by myself. Also, a single point of failure in a privacy-focused application like this could lead to compromised user privacy (e.g. if my accounts are hacked, then the site could go down as there is no corporate entity backing it.)
+Currently, the project's development is halted. The credits and billing systems are not yet implemented. At the moment, this project is **too large in scope** for me to test and deploy properly by myself. Also, a single point of failure in a privacy-focused application like this could lead to compromised user privacy (e.g. if my accounts are hacked, then the site could go down as there is no corporate entity backing it.) I made good progress in the time I spent on the application.
 
-### [Origami](https://github.com/btarg/origami) (Abandoned)
+### [Origami](https://github.com/btarg/origami) (Discontinued)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 
 Origami is a Minecraft server plugin for the [Paper](https://papermc.org/) platform, which allows for server owners to create more a customised experience closer to that of modded Minecraft, regardless of the players' clients.
@@ -81,7 +81,7 @@ The plugin also **observed more general information about the players **in the s
 
 Other, better alternatives for this idea exist, however I was **one of the first to implement** this particular idea in code, and I learned a lot about implementing **"Tools"** for large language models like **GPT-4.**
 
-### [Unity Ink game](https://github.com/btarg/UnityInkGame) (Old)
+### [Unity Ink game](https://github.com/btarg/UnityInkGame)
 ![Unity](https://img.shields.io/badge/unity-%23000000.svg?style=for-the-badge&logo=unity&logoColor=white)![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=csharp&logoColor=white)
 
 This unnamed 3D first-person exploration game was heavily dialogue-centric. It featured a **Quake level importer** so I could make levels with [Trenchbroom](https://trenchbroom.github.io/), which while adapted from existing open-source code, was highly customised to allow me to place **Invisible walls, triggers and Unity prefabs** within the Trenchbroom editor.
@@ -93,7 +93,7 @@ This was also my first experience **creating UI for a game,** which I believe tu
 I abandoned work on this game after I decided that the gameplay was lacking. I had not created a Game Design Document for this project like I later did for **Project Requiem,** which severely hindered my ability to craft a fun experience. I have used this as a valuable lesson for projects since, and have been creating more **detailed documentation for both systems and narratives** in current projects.
 
 
-### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2) (Old)
+### [Twitch Vs Minecraft](https://github.com/btarg/TwitchVsMinecraft2)
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![Gradle](https://img.shields.io/badge/Gradle-02303A.svg?style=for-the-badge&logo=Gradle&logoColor=white)
 
 Twitch vs Minecraft is a Minecraft Forge mod which allows a player's Twitch chat to **directly interact with their game** through commands.
